@@ -1,449 +1,561 @@
-<!DOCTYPE html>
-<html lang="en">
+        <!DOCTYPE html>
+        <html lang="en">
 
-<head>
+        <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="">
+            <meta name="author" content="">
 
-    <title>Processo - Introdução em Java</title>
+            <title>Processo - Introdução em Java</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+            <!-- Bootstrap Core CSS -->
+            <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/business-casual.css" rel="stylesheet">
+            <!-- Custom CSS -->
+            <link href="css/business-casual.css" rel="stylesheet">
 
-    <!-- Fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+            <!-- Fonts -->
+            <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+            <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+            <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+            <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+            <!--[if lt IE 9]>
+                <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+                <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+            <![endif]-->
 
-</head>
+        </head>
 
-<body>
+        <body>
 
-    <div class="brand">Processo - Introdução em Java</div>
-    <div class="address-bar"></div>
+            <div class="brand">Processo - Introdução em Java</div>
+            <div class="address-bar"></div>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">Introdução em Java</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="index.html">Introdução</a>
-                    </li>
-                    <li>
-                        <a href="tarefas.html">Tarefas</a>
-                    </li>
-                    <li>
-                        <a><font color = "black">Processo</font></a>
-                    </li>
-                    <li>
-                        <a href="recursos.html">Recursos</a>
-                    </li>
-                    <li>
-                        <a href="avaliacao.html">Avaliação</a>
-                    </li>
-                    <li>
-                        <a href="conclusao.html">Conclusão</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <div class="container">
-
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">Parte I - 
-                        <strong>Principiante</strong>
-                    </h2>
-                    <h5 class="text-center">
-                        <strong>Lógica da calculadora</strong>
-                    </h5>
-                    <hr>
+            <!-- Navigation -->
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                        <a class="navbar-brand" href="index.html">Introdução em Java</a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="index.html">Introdução</a>
+                            </li>
+                            <li>
+                                <a href="tarefas.html">Tarefas</a>
+                            </li>
+                            <li>
+                                <a><font color = "black">Processo</font></a>
+                            </li>
+                            <li>
+                                <a href="recursos.html">Recursos</a>
+                            </li>
+                            <li>
+                                <a href="avaliacao.html">Avaliação</a>
+                            </li>
+                            <li>
+                                <a href="conclusao.html">Conclusão</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
                 </div>
-                <div class="col-md-12">
-                    <div class="panel-group" id="accordion">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                            Tarefa #1 - Breve introdução à linguagem Java</a>
-                          </h4>
-                            </div>
-                            <div id="collapse1" class="panel-collapse collapse">
-                                <div class="panel-body text-justify">
-                                    <p>Como qualquer linguagem de programação, a linguagem Java tem a sua própria estrutura, regras de sintaxe e paradigma de programação. O paradigma de programação da linguagem Java é orientado a objetos. Podes consultar mais sobre isto <a href="https://pt.wikipedia.org/wiki/Orienta%C3%A7%C3%A3o_a_objetos">aqui</a>.</p>
-                                    <p>A linguagem Java deriva da linguagem C, portanto as suas regras de sintaxe assemelham-se às regras de C. Por exemplo, os blocos de códigos são modularizadas em funções e delimitados por chavetas ({ e }) e as variáveis são declaradas antes que sejam usadas.</p>
-                                    <p>Estruturalmente, a linguagem Java começa com pacotes. Um pacote é o mecanismo de namespace da linguagem Java. Dentro dos pacotes estão as classes e dentro das classes estão métodos, variáveis, constantes e mais.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                            Tarefa #2 - Conhecer o ambiente de trabalho</a>
-                          </h4>
-                            </div>
-                            <div id="collapse2" class="panel-collapse collapse">
-                                <div class="panel-body text-justify">
-                                    <p>Um ambiente de desenvolvimento integrado (IDE) trata-se de uma aplicação de <i>software</i> que integra diversas ferramentas essenciais para programar, tais como editor de código-fonte, compilador e depurador de erros. Neste caso, iremos utilizar o IDE Eclipse visto que é um dos mais utilizados na prática de programação em Java.</p>
-                                    <p>Para procederes à instalação do mesmo, segue este breve <a href="https://www.eclipse.org/downloads/index.php?show_instructions=TRUE">tutorial</a>.</p>
-                                    <p>Vamos então proceder à criação do nosso primeiro projeto em Java. Após abrir o Eclipse vamos ter de escolher inicialmente o nosso <i>workspace</i>, que no fundo não passa de uma pasta no nosso computador onde vamos ter todos os nossos projetos. Podes escolher a pasta que preferes ou deixar por defeito a que aparece, como vês na imagem seguinte:</p>
-                                    <br>
-                                    <img class="img-responsive img-border img-center" src="img/process/workspace.png" width="600" height="195" alt="">
-                                    <br>
-                                    <p>Após escolhido o nosso <i>workspace</i> vamos proceder à alteração da perspectiva do nosso IDE para Java para facilitar a criação do nosso projeto. Para tal segue os passos da próxima imagem:</p>
-                                    <br>
-                                    <img class="img-responsive img-border img-center" src="img/process/perspective.png" width="600" height="195" alt="">
-                                    <br>
-                                    <p>Agora que já temos a nossa perspetiva definida para Java, vamos agora criar o nosso primeiro projeto em Java. Para tal, vai à barra de ferramentas do Eclipse, vai a File > New > Java Project. Caso tenhas dificuldades vê a próxima imagem para veres onde tens de carregar.</p>
-                                    <br>
-                                    <img class="img-responsive img-border img-center" src="img/process/create.png" width="600" height="195" alt="">
-                                    <br>
-                                    <p>Vamos então configurar o nosso projeto, onde podes selecionar o nome deste ou o seu <i>workspace</i>, caso pretendas um diferente. De seguida tens uma imagem que ilustra o menu com que te vais deparar.</p>
-                                    <br>
-                                    <img class="img-responsive img-border img-center" src="img/process/project.PNG" width="600" height="195" alt="">
-                                    <br>
-                                    <p>Nesta fase já tens o teu projeto criado, resta agora adicionar ficheiros Java, ou seja, onde vais escrever o teu código. Estes ficheiros são chamados de classes e podes explorar um bocado mais sobre elas neste <a href="http://www.tutorialspoint.com/java/java_object_classes.htm">link</a>. Para criares a tua primeira classe, vê esta imagem: </p>
-                                    <br>
-                                    <img class="img-responsive img-border img-center" src="img/process/class.png" width="600" height="195" alt="">
-                                    <br>
-                                    <p>Agora chegou a altura de configurares a classe, onde podes definir o seu pacote, o seu nome, entre outras definições. Por enquanto só nos interessa escolher o seu nome e colocar o visto como se pode ver na imagem:</p>
-                                    <br>
-                                    <img class="img-responsive img-border img-center" src="img/process/class2.png" width="600" height="195" alt="">
-                                    <br>
-                                    <p>Por esta altura deves ter o teu projeto configurado e pronto para começar a programar! Na imagem tens o exemplo de como te deve aparecer o projeto nesta altura:</p>
-                                    <br>
-                                    <img class="img-responsive img-border img-center" src="img/process/start.png" width="600" height="195" alt="">
-                                    <br>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                            Tarefa #3 - Criar projeto "<i>Hello World</i>"</a>
-                          </h4>
-                            </div>
-                            <div id="collapse3" class="panel-collapse collapse">
-                                <div class="panel-body text-justify">
-                                    <p>Por esta altura deves ter o teu projeto vazio e pronto para começares a programar. Como tal, vamos experimentar imprimir algo na consola do nosso IDE. Para isso vais precisar de colocar o seguinte código no nosso ficheiro Java.</p>
-                                    <pre>1. public class Nome_Classe {
-2. 
-3.     public static void main(String args[]){	
-4.         System.out.println("Hello World!");
-5.     }
-6. 
-7. }</pre>
-                                    <p>Se estás um bocado confuso com o que é este código não te assustes, mais à frente vai ser explicado os conceitos implementados nele.</p>
-                                    <p>Agora que já colocaste o código no teu IDE, vamos executar e ver o que acontece, para tal segue a seguinte imagem:</p>
-                                    <img class="img-responsive img-border img-center" src="img/process/hello_run.png" width="600" height="195" alt="">
-                                    <p>Após teres executado o código, vai surgir na parte inferior do teu IDE uma janela chamada <i>Console</i> que vai apresentar o resultado da execução do código, como podes ver na imagem abaixo:</p>
-                                    <img class="img-responsive img-border img-center" src="img/process/hello_console.png" width="600" height="195" alt="">
-                                </div>  
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
-                            Tarefa #4 - Compreender funções e tipos de variáveis</a>
-                          </h4>
-                            </div>
-                            <div id="collapse4" class="panel-collapse collapse">
-                                <div class="panel-body text-justify">
-                                    <p>Variáveis são elementos que têm a capacidade de guardar informação de um programa. Estes podem ter qualquer nome e podem ser de muitos tipos. Podes consultar os diferentes tipos de variáveis existentes <a href="http://www.tutorialspoint.com/java/java_basic_datatypes.htm">aqui</a>.</p>
-                                    <p>Uma variável declara-se da seguinte maneira:</p>
-                                    <p><pre>tipoDaVariavel nomeDaVariavel;</pre></p>
-                                    <p>Por exemplo, se quisermos guardar uma variável idade podemos declará-la como um inteiro e assim podemos guardar esse valor.</p>
-                                    <p><pre>int idade;</pre></p>
-                                    <p>Se quisermos definir a variável idade como sendo 20 fazemos o seguinte:</p>
-                                    <p><pre>idade = 20;</pre></p>
-                                    <p>Podemos também definir variáveis com carateres. Por exemplo, se quisermos definir o nome de uma pessoa cujo nome é Artur fazemos o seguinte:</p>
-                                    <p><pre>String nome = "Artur";</pre></p>
-                                    <p>Para podermos iniciar a programar em Java temos que primeiro perceber o que é uma função. Funções são procedimentos que agrupam um conjunto de comandos no seu interior e que são executados quando o procedimento é chamado, retornando um valor no seu fim. Estas são implementadas dessa maneira para que se possa ter o código organizado, podendo-se chamar qualquer função em qualquer parte do código a qualquer altura. Uma função é declarada da seguinte maneira:</p>
-                                    <pre>
-&lt;tipo do valor retornado&gt; nome_da_função ( &lt;tipo&gt; arg1, &lt;tipo&gt; arg2, ..., &lt;tipo&gt; argN){
-    &lt;corpo da função&gt;
-    return valor_de_retorno;
-}</pre>
-                                    <p>Assim, uma função pode receber x números de argumentos, que vão ser úteis para que se execute uma determinada função, e no final terá que retornar um valor do tipo indicado pela função. Se a função não necessitar de retornar nenhum valor esse tipo poderá ser "void".
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
-                            Tarefa #5 - Compreender conceitos de <i>Input</i> e <i>Output</i></a>
-                          </h4>
-                            </div>
-                            <div id="collapse5" class="panel-collapse collapse">
-                                <div class="panel-body text-justify">
-                                    <p>Por vezes é necessária a interação do utilizador com o programa para que este possa fazer o que é suposto. Para isso, existem funções de origem no Java que permitem imprimir mensagens de texto para o utilizador ler e também funções que permitem ler respostas do utilizador.</p>
-                                    <p>Por exemplo, se tivermos uma função chamada pergunta idade poderemos ter o seguinte código:</p>
-                                    <pre>int obtemIdade() {
-    int idade;
-    Scanner scanner = new Scanner(System.in);
-    System.out.print("Qual é a tua idade? "); 
-    idade = scanner.nextInt(); return idade; 
-}
-                                        </pre>
-                                    <p>Esta função, quando chamada, começa por pedir a idade do utilizador através da função <code>System.out.print("mensagem a enviar")</code>, imprimindo a mensagem na consola. Em seguida o utilizador responde, ficando a resposta do mesmo guardada na variável idade e retornada no fim da função obtemIdade.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
-                            Tarefa #6 - Compreender conceitos de tomadas de decisão</a>
-                          </h4>
-                            </div>
-                            <div id="collapse6" class="panel-collapse collapse">
-                                <div class="panel-body text-justify">
-                                    <p>Tomadas de decisão ou condições boleanas são todas as expressão que retornam true(verdadeiro) ou false(falso). De maneira a fazermos comparações podemos usar os operadores <code>&lt;, &gt;, &lt;=, &gt;=</code> entre <a href="http://www.tutorialspoint.com/java/java_relational_operators_examples.htm">outros</a> que vão permitir que se cheguem às conclusões. A base desta lógica é a seguinte</p>
-                                    <pre>if (condicaoBooleana) {
-    se sim executa este codigo;
-}
-else {
-    se não executa este código;
-}</pre>
+                <!-- /.container -->
+            </nav>
 
-                                    <p>Um possível exemplo de uma condição boleana é:</p>
+            <div class="container">
+
+                <div class="row">
+                    <div class="box">
+                        <div class="col-lg-12">
+                            <hr>
+                            <h2 class="intro-text text-center">Parte I - 
+                                <strong>Principiante</strong>
+                            </h2>
+                            <h5 class="text-center">
+                                <strong>Lógica da Calculadora Simples</strong>
+                            </h5>
+                            <hr>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="panel-group" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                    Tarefa #1 - Breve introdução à linguagem Java</a>
+                                  </h4>
+                                    </div>
+                                    <div id="collapse1" class="panel-collapse collapse">
+                                        <div class="panel-body text-justify">
+                                            <p>Como qualquer linguagem de programação, a linguagem Java tem a sua própria estrutura, regras de sintaxe e paradigma de programação. O paradigma de programação da linguagem Java é orientado a objetos. Podes consultar mais sobre isto <a href="https://pt.wikipedia.org/wiki/Orienta%C3%A7%C3%A3o_a_objetos">aqui</a>.</p>
+                                            <p>A linguagem Java deriva da linguagem C, portanto as suas regras de sintaxe assemelham-se às regras de C. Por exemplo, os blocos de códigos são modularizadas em funções e delimitados por chavetas ({ e }) e as variáveis são declaradas antes que sejam usadas.</p>
+                                            <p>Estruturalmente, a linguagem Java começa com pacotes. Um pacote é o mecanismo de namespace da linguagem Java. Dentro dos pacotes estão as classes e dentro das classes estão métodos, variáveis, constantes e mais.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                    Tarefa #2 - Conhecer o ambiente de trabalho</a>
+                                  </h4>
+                                    </div>
+                                    <div id="collapse2" class="panel-collapse collapse">
+                                        <div class="panel-body text-justify">
+                                            <p>Um ambiente de desenvolvimento integrado (IDE) trata-se de uma aplicação de <i>software</i> que integra diversas ferramentas essenciais para programar, tais como editor de código-fonte, compilador e depurador de erros. Neste caso, iremos utilizar o IDE Eclipse visto que é um dos mais utilizados na prática de programação em Java.</p>
+                                            <p>Para procederes à instalação do mesmo, segue este breve <a href="https://www.eclipse.org/downloads/index.php?show_instructions=TRUE">tutorial</a>.</p>
+                                            <p>Vamos então proceder à criação do nosso primeiro projeto em Java. Após abrir o Eclipse vamos ter de escolher inicialmente o nosso <i>workspace</i>, que no fundo não passa de uma pasta no nosso computador onde vamos ter todos os nossos projetos. Podes escolher a pasta que preferes ou deixar por defeito a que aparece, como vês na imagem seguinte:</p>
+                                            <br>
+                                            <img class="img-responsive img-border img-center" src="img/process/workspace.png" width="600" height="195" alt="">
+                                            <br>
+                                            <p>Após escolhido o nosso <i>workspace</i> vamos proceder à alteração da perspectiva do nosso IDE para Java para facilitar a criação do nosso projeto. Para tal segue os passos da próxima imagem:</p>
+                                            <br>
+                                            <img class="img-responsive img-border img-center" src="img/process/perspective.png" width="600" height="195" alt="">
+                                            <br>
+                                            <p>Agora que já temos a nossa perspetiva definida para Java, vamos agora criar o nosso primeiro projeto em Java. Para tal, vai à barra de ferramentas do Eclipse, vai a File > New > Java Project. Caso tenhas dificuldades vê a próxima imagem para veres onde tens de carregar.</p>
+                                            <br>
+                                            <img class="img-responsive img-border img-center" src="img/process/create.png" width="600" height="195" alt="">
+                                            <br>
+                                            <p>Vamos então configurar o nosso projeto, onde podes selecionar o nome deste ou o seu <i>workspace</i>, caso pretendas um diferente. De seguida tens uma imagem que ilustra o menu com que te vais deparar.</p>
+                                            <br>
+                                            <img class="img-responsive img-border img-center" src="img/process/project.PNG" width="600" height="195" alt="">
+                                            <br>
+                                            <p>Nesta fase já tens o teu projeto criado, resta agora adicionar ficheiros Java, ou seja, onde vais escrever o teu código. Estes ficheiros são chamados de classes e podes explorar um bocado mais sobre elas neste <a href="http://www.tutorialspoint.com/java/java_object_classes.htm">link</a>. Para criares a tua primeira classe, vê esta imagem: </p>
+                                            <br>
+                                            <img class="img-responsive img-border img-center" src="img/process/class.png" width="600" height="195" alt="">
+                                            <br>
+                                            <p>Agora chegou a altura de configurares a classe, onde podes definir o seu pacote, o seu nome, entre outras definições. Por enquanto só nos interessa escolher o seu nome e colocar o visto como se pode ver na imagem:</p>
+                                            <br>
+                                            <img class="img-responsive img-border img-center" src="img/process/class2.png" width="600" height="195" alt="">
+                                            <br>
+                                            <p>Por esta altura deves ter o teu projeto configurado e pronto para começar a programar! Na imagem tens o exemplo de como te deve aparecer o projeto nesta altura:</p>
+                                            <br>
+                                            <img class="img-responsive img-border img-center" src="img/process/start.png" width="600" height="195" alt="">
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                    Tarefa #3 - Criar projeto "<i>Hello World</i>"</a>
+                                  </h4>
+                                    </div>
+                                    <div id="collapse3" class="panel-collapse collapse">
+                                        <div class="panel-body text-justify">
+                                            <p>Por esta altura deves ter o teu projeto vazio e pronto para começares a programar. Como tal, vamos experimentar imprimir algo na consola do nosso IDE. Para isso vais precisar de colocar o seguinte código no nosso ficheiro Java.</p>
+                                            <pre>1. public class Nome_Classe {
+        2. 
+        3.     public static void main(String args[]){	
+        4.         System.out.println("Hello World!");
+        5.     }
+        6. 
+        7. }</pre>
+                                            <p>Se estás um bocado confuso com o que é este código não te assustes, mais à frente vão ser explicados os conceitos implementados nele.</p>
+                                            <p>Agora que já colocaste o código no teu IDE, vamos executar e ver o que acontece, para tal segue a seguinte imagem:</p>
+                                            <img class="img-responsive img-border img-center" src="img/process/hello_run.png" width="600" height="195" alt="">
+                                            <p>Após teres executado o código, vai surgir na parte inferior do teu IDE uma janela chamada <i>Console</i> que vai apresentar o resultado da execução do código, como podes ver na imagem abaixo:</p>
+                                            <img class="img-responsive img-border img-center" src="img/process/hello_console.png" width="600" height="195" alt="">
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                                    Tarefa #4 - Compreender funções e tipos de variáveis</a>
+                                  </h4>
+                                    </div>
+                                    <div id="collapse4" class="panel-collapse collapse">
+                                        <div class="panel-body text-justify">
+                                            <p>Variáveis são elementos que têm a capacidade de guardar informação de um programa. Estes podem ter qualquer nome e podem ser de muitos tipos. Podes consultar os diferentes tipos de variáveis existentes <a href="http://www.tutorialspoint.com/java/java_basic_datatypes.htm">aqui</a>.</p>
+                                            <p>Uma variável declara-se da seguinte maneira:</p>
+                                            <p><pre>tipoDaVariavel nomeDaVariavel;</pre></p>
+                                            <p>Por exemplo, se quisermos guardar uma variável idade podemos declará-la como um inteiro e assim podemos guardar esse valor.</p>
+                                            <p><pre>int idade;</pre></p>
+                                            <p>Se quisermos definir a variável idade como sendo 20 fazemos o seguinte:</p>
+                                            <p><pre>idade = 20;</pre></p>
+                                            <p>Podemos também definir variáveis com carateres. Por exemplo, se quisermos definir o nome de uma pessoa cujo nome é Artur fazemos o seguinte:</p>
+                                            <p><pre>String nome = "Artur";</pre></p>
+                                            <p>Para podermos iniciar a programar em Java temos que primeiro perceber o que é uma função. Funções são procedimentos que agrupam um conjunto de comandos no seu interior e que são executados quando o procedimento é chamado, retornando um valor no seu fim. Estas são implementadas dessa maneira para que se possa ter o código organizado, podendo-se chamar qualquer função em qualquer parte do código a qualquer altura. Uma função é declarada da seguinte maneira:</p>
+                                            <pre>
+        &lt;tipo do valor retornado&gt; nome_da_função ( &lt;tipo&gt; arg1, &lt;tipo&gt; arg2, ..., &lt;tipo&gt; argN){
+            &lt;corpo da função&gt;
+            return valor_de_retorno;
+        }</pre>
+                                            <p>Assim, uma função pode receber x números de argumentos, que vão ser úteis para que se execute uma determinada função, e no final terá que retornar um valor do tipo indicado pela função. Se a função não necessitar de retornar nenhum valor esse tipo poderá ser "void".
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                                    Tarefa #5 - Compreender conceitos de <i>Input</i> e <i>Output</i></a>
+                                  </h4>
+                                    </div>
+                                    <div id="collapse5" class="panel-collapse collapse">
+                                        <div class="panel-body text-justify">
+                                            <p>Por vezes é necessária a interação do utilizador com o programa para que este possa fazer o que é suposto. Para isso, existem funções de origem no Java que permitem imprimir mensagens de texto para o utilizador ler e também funções que permitem ler respostas do utilizador.</p>
+                                            <p>Por exemplo, se tivermos uma função chamada pergunta idade poderemos ter o seguinte código:</p>
+                                            <pre>int obtemIdade() {
+            int idade;
+            Scanner scanner = new Scanner(System.in);
+            System.out.print("Qual é a tua idade? "); 
+            idade = scanner.nextInt(); return idade; 
+        }
+                                                </pre>
+                                            <p>Esta função, quando chamada, começa por pedir a idade do utilizador através da função <code>System.out.print("mensagem a enviar")</code>, imprimindo a mensagem na consola. Em seguida o utilizador responde, ficando a resposta do mesmo guardada na variável idade e retornada no fim da função obtemIdade.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+                                    Tarefa #6 - Compreender conceitos de tomadas de decisão</a>
+                                  </h4>
+                                    </div>
+                                    <div id="collapse6" class="panel-collapse collapse">
+                                        <div class="panel-body text-justify">
+                                            <p>Tomadas de decisão ou condições boleanas são todas as expressão que retornam true(verdadeiro) ou false(falso). De maneira a fazermos comparações podemos usar os operadores <code>&lt;, &gt;, &lt;=, &gt;=</code> entre <a href="http://www.tutorialspoint.com/java/java_relational_operators_examples.htm">outros</a> que vão permitir que se cheguem às conclusões. A base desta lógica é a seguinte</p>
+                                            <pre>if (condicaoBooleana) {
+            se sim executa este codigo;
+        }
+        else {
+            se não executa este código;
+        }</pre>
+
+                                            <p>Um possível exemplo de uma condição boleana é:</p>
+        <pre>
+        if (idade &lt; 18) {
+            System.out.println("Não pode entrar na discoteca");
+        }
+        else{
+            System.out.println("Pode entrar na discoteca");
+        }
+        </pre>
+                                            <p>Este pedaço de código verifica se a variável idade é menor que 18. Se for, o programa imprime na consola que a pessoa não pode entrar na discoteca, se for igual ou maior o programa imprime na consola que essa pessoa tem idade para entrar numa discoteca.</p></div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">
+                                    Tarefa #7 - Programa básico</a>
+                                  </h4>
+                                    </div>
+                                    <div id="collapse7" class="panel-collapse collapse">
+                                        <div class="panel-body text-justify">
+                                            <pre>1. import java.util.Scanner;
+        2. public class Main {
+        3. 	public static void main(String args[]){
+        4. 		
+        5. 		int op = 0;
+        6. 		Scanner in1 = new Scanner(System.in);
+        7. 		
+        8. 		System.out.println("Menu:");
+        9. 		System.out.println("Escolha o valor 1 para iniciar o programa.");
+        10. 		System.out.println("Escolha outro valor diferente de 1 para terminar o programa.");
+        11.		System.out.println("Insira o valor: ");
+        12.		
+        13.		op = in1.nextInt();
+        14.		
+        15.		if(op == 1){
+        16.		
+        17.			String nome, atividade;
+        18.			
+        19.			Scanner in = new Scanner(System.in);
+        20.			System.out.println("Insira o seu nome: ");
+        21.			
+        22.			nome = in.nextLine();
+        23.			
+        24.			System.out.println("Insira uma atividade que goste de praticar: ");
+        25.			
+        26.			atividade = in.nextLine();
+        27.			
+        28.			System.out.println("Olá, o meu nome é " + nome + " e gosto muito de praticar " + atividade + "!");
+        29.		}
+        30.	}
+        31.}
+        </pre>
+                                            <p>Neste programa simples, usamos <i>outputs</i>, <i>inputs</i> e <i>ifs</i>.Também usamos ints que são valores numéricos inteiros e Strings que são conjuntos de caractéres.</p>
+                                            <p>Na primeira parte, a linha 5 responsável por criar e inicializar o valor op a 0. Na linha 6 criamos um Scanner que é responsável por receber os inputs. De seguida nas linhas 8, 9, 10 e 11 criamos um conjuntos de linhas a imprimir no monitor de modo a que utilizador compreenda o que é esperado da sua parte. Após isto, a linha 13 é responsável por ficar a aguardar um valor introduzido pelo utilizador e guardá-lo na variável op.</p> 
+                                            <p>Na linha 15 usamos um if para verificar se a variável op é 1, se for, realiza as intruções que estão dentro das chavetas, se não ignora essas intruções, que neste caso em concreto significa o fim do programa. Dentro do if, temos na linha 17 a criação de duas strings, a nome e atividade que iremos usar para guardar valores. De seguida criamos de novo outro Scanner para conseguir receber inputs e fazemos alternadamente output ao utilizador (linhas 20, 24, 28) e input do utilizador (linhas 22 e 26), sendo que no output final é construído uma linha de texto mais complexa sendo usadas as strings criadas na linha 17.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">
+                                    Tarefa #8 - Elaboração da calculadora</a>
+                                  </h4>
+                                    </div>
+                                    <div id="collapse8" class="panel-collapse collapse">
+                                        <div class="panel-body text-justify"><pre>1. import java.util.Scanner;
+        2. public class Main {
+        3.     public static void main(String[] args) {
+        4.     	
+        5.         double n1, n2;
+        6.         String op;
+        7.         
+        8.         Scanner in = new Scanner(System.in);
+        9.         System.out.println("Insira o primeiro número.");
+        10.         n1 = in. nextDouble();
+        11.        System.out.println("Insira a operação.");
+        12.        op = in.next();
+        13.        
+        14.        System.out.println("Insira o segundo número.");
+        15.         n2 = in. nextDouble();
+        16.         
+        17.         if(op.equals("+"))
+        18.             System.out.println(n1 + " " + op + " " + n2 + " = " + (n1 + n2));
+        19.         else if(op.equals("-"))
+        20.             System.out.println(n1 + " " + op + " " + n2 + " = " + (n1 - n2));
+        21.         else if(op.equals("/")){
+        22.         	if(n2 != 0)     
+        23.         		System.out.println(n1 + " " + op + " " + n2 + " = " + (n1 / n2));
+        24.         	else
+        25.        		System.out.println("Não podem ser feitas divisões por 0.");
+        26.        }
+        27.         else if(op.equals("*"))
+        28.             System.out.println(n1 + " " + op + " " + n2 + " = " + (n1 * n2));
+        29.         else
+        30.             System.out.println("Inseriu uma operação incorreta.");
+        31.     }
+        32. }</pre>
+                                            <p>Para a realização da calculadora utilizazmos todos os conhecimentos adquiridos previamente. Começamos por declarar as variáveis n1 e n2 que irão ser os valores numéricos e uma string op que irá ser a operação. De seguida é criado um Scanner para podermos receber inputs e são feitos 3 outputs e 3 inputs alternadamente de modo a pedir o primeiro valor e receber esse valor, o mesmo para a operação e o mesmo para o número final. Continuando, para mostrar o resultado no monitor ainda falta verificar de que tipo de operação se trata. Deste modo, temos de verificar o valor da variável op para conseguir imprimir o valor final correto. No entanto, há algumas exceções que temos de prestar atenção:</p>
+                                            <p>1. Divisão por 0 não é possível, pelo que temos um if em que caso seja uma divisão, se o segundo número for 0 é apresentada uma mensagem específica.</p>
+                                            <p>2. Valores que não são esperados pelo programa, fazem com que este não consiga correr corretamente não levando ao resultado esperado, de modo que, caso não exista o valor da operação inserida, é também apresentada uma mensagem específica para esse erro.</p>
+                                            <p>E deste modo concluimos a criação de uma calculadora bastante simples.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="box">
+                        <div class="col-lg-12">
+                            <hr>
+                            <h2 class="intro-text text-center">Parte II - 
+                                <strong>Avançado</strong>
+                            </h2>
+                            <h5 class="text-center">
+                                <strong>Calculadora Avançada</strong>
+                            </h5>
+                            <hr>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="panel-group" id="accordion-2">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion-2" href="#collapse9">
+                                    Tarefa #9 - Compreender ciclos while</a>
+                                  </h4>
+                                    </div>
+                                    <div id="collapse9" class="panel-collapse collapse">
+                                        <div class="panel-body text-justify">
+                                            <p>O while é um comando usado para fazer um ciclo de um determinado código, isto é, repetir um trecho de código um determinado número de vezes. A ideia é que esse pedaço de código seja repetido enquanto uma determinada condição permanecer verdadeira.</p>
 <pre>
-if (idade &lt; 18) {
-    System.out.println("Não pode entrar na discoteca");
-}
-else{
-    System.out.println("Pode entrar na discoteca");
+    int idade = 15;
+    while (idade &lt; 18) {
+      System.out.println(idade);  
+      idade = idade + 1;
+    }
+</pre>    
+                                            <p>Neste caso, o código no interior do while será executado até ao momento em que a condição idade &lt; 18 passe a ser falsa. Neste caso em que a idade aumenta em 1 a cada fim de ciclo, isso ocorrerá exatamente no momento em que idade for igual a 18, o que fará com que deixe de imprimir a idade e com que o 18 não seja imprimido.</p>
+                                        </div>
+        							</div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion-2" href="#collapse10">
+                                    Tarefa #10 - Compreender ciclos for</a>
+                                  </h4>
+                                    </div>
+                                    <div id="collapse10" class="panel-collapse collapse">
+                                        <div class="panel-body text-justify">
+                                            <p>Outro comando de ciclos extremamente utilizado é o for. A ideia é a mesma do while: executar um pedaço de código repetidamente enquanto uma determinada condição continuar verdadeira. A maneira correta de escrever um ciclo for é:</p>
+<pre>
+for (inicializacao; condicao; incremento) {
+  codigo;
 }
 </pre>
-                                    <p>Este pedaço de código verifica se a variável idade é menor que 18. Se for, o programa imprime na consola que a pessoa não pode entrar na discoteca, se for igual ou maior o programa imprime na consola que essa pessoa tem idade para entrar numa discoteca.</p></div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">
-                            Tarefa #7 - Programa básico</a>
-                          </h4>
-                            </div>
-                            <div id="collapse7" class="panel-collapse collapse">
-                                <div class="panel-body text-justify">
-                                    <pre>1. import java.util.Scanner;
-2. public class Main {
-3. 	public static void main(String args[]){
-4. 		
-5. 		int op = 0;
-6. 		Scanner in1 = new Scanner(System.in);
-7. 		
-8. 		System.out.println("Menu:");
-9. 		System.out.println("Escolha o valor 1 para iniciar o programa.");
-10. 		System.out.println("Escolha outro valor diferente de 1 para terminar o programa.");
-11.		System.out.println("Insira o valor: ");
-12.		
-13.		op = in1.nextInt();
-14.		
-15.		if(op == 1){
-16.		
-17.			String nome, atividade;
-18.			
-19.			Scanner in = new Scanner(System.in);
-20.			System.out.println("Insira o seu nome: ");
-21.			
-22.			nome = in.nextLine();
-23.			
-24.			System.out.println("Insira uma atividade que goste de praticar: ");
-25.			
-26.			atividade = in.nextLine();
-27.			
-28.			System.out.println("Olá, o meu nome é " + nome + " e gosto muito de praticar " + atividade + "!");
-29.		}
-30.	}
-31.}
+
+<p>Um exemplo de uso desta função é o seguinte:</p>
+
+<pre>
+for (int i = 0; i &lt; 10; i = i + 1) {
+  System.out.println("olá!");
+}
 </pre>
-                                    <p>Neste programa simples, usamos <i>outputs</i>, <i>inputs</i> e <i>ifs</i>.Também usamos ints que são valores numéricos inteiros e Strings que são conjuntos de caractéres.</p>
-                                    <p>Na primeira parte, a linha 5 responsável por criar e inicializar o valor op a 0. Na linha 6 criamos um Scanner que é responsável por receber os inputs. De seguida nas linhas 8, 9, 10 e 11 criamos um conjuntos de linhas a imprimir no monitor de modo a que utilizador compreenda o que é esperado da sua parte. Após isto, a linha 13 é responsável por ficar a aguardar um valor introduzido pelo utilizador e guardá-lo na variável op.</p> 
-                                    <p>Na linha 15 usamos um if para verificar se a variável op é 1, se for, realiza as intruções que estão dentro das chavetas, se não ignora essas intruções, que neste caso em concreto significa o fim do programa. Dentro do if, temos na linha 17 a criação de duas strings, a nome e atividade que iremos usar para guardar valores. De seguida criamos de novo outro Scanner para conseguir receber inputs e fazemos alternadamente output ao utilizador (linhas 20, 24, 28) e input do utilizador (linhas 22 e 26), sendo que no output final é construído uma linha de texto mais complexa sendo usadas as strings criadas na linha 17.</p>
+
+<p>Nesta função vai ser imprimido na consola a expressão "olá", isto é, o número de vezes que o código deste ciclo vai correr é igual a 10. Um dado curioso é o facto de este ciclo for poder ser substituído por um ciclo while que tem exatamente a mesma função:</p>
+
+<pre>
+int i = 0;
+while (i &lt; 10) {
+  System.out.println("olá!");
+  i = i + 1;
+}
+</pre>
+
+<p>Em termos de legibilidade e compreensão do código a versão do for indica claramente que a variável i serve para controlar a quantidade de ciclos executados, ao contrário do ciclo while. Podemos assim usar ambos os tipos de ciclo, dependendo apenas do gosto de cada um pois estes têm funções muito semelhantes</p>
+                                        </div>
+                                    </div>
                                 </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion-2" href="#collapse11">
+                                    Tarefa #11 - Compreender o switch</a>
+                                  </h4>
+                                    </div>
+                                    <div id="collapse11" class="panel-collapse collapse">
+                                        <div class="panel-body text-justify">
+                                            <p>O Java possui um recurso específico para quando temos uma variável de decisão a definir qual a condição que queremos correr, ao invés de colocarmos vários if's em cadeia. A sua maneira de execução é a seguinte:
+</p>
+<pre>
+switch( variavel de decisão )
+{
+    case opção1:
+            comandos caso a opção 1 tenha sido escolhida
+            break;
+    
+    case opção2:
+            comandos caso a opção 2 tenha sido escolhida
+            break;
+    
+    default:
+            comandos caso nenhuma das opções anteriores tenha sido escolhida
+}
+</pre>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion-2" href="#collapse12">
+                                    Tarefa #12 - Elaboração da calculadora avançada</a>
+                                  </h4>
+                                    </div>
+                                    <div id="collapse12" class="panel-collapse collapse">
+                                        <div class="panel-body text-justify">
+                                            <p>De modo a tornar a calculadora criada previamente mais robusta, iremos adicionar um ciclo infinito de modo a não ter de reiniciar sempre o programa para fazer uma conta. Assim fazemos todas as contas desejadas e termina-se o programa no final. O programa é idêntico ao anterior à exceção do ciclo while, alguns outputs e um novo pedido de input que pergunta se desejamos terminar o programa, pelo que se respondermos "y", o programa termina, caso contrário, continua a pedir valores para realizar contas. Inclui ainda o switch que lida com as diferentes possibilidades de respostas.</p>
+                                            <pre>
+    1. import java.util.Scanner;
+    2. 
+    3. public class Main {
+    4. 
+    5.    public static void main(String[] args) {
+    6.         
+    7.         System.out.println("Bem-vindo ao programa da calculadora");
+    8.         String end = "n";
+    9.         
+    10.         while(true){
+    11.             
+    12.             double n1, n2;
+    13.             String op;
+    14.             
+    15.             Scanner in = new Scanner(System.in);
+    16.     
+    17.             System.out.println("Insira o primeiro número.");
+    18.             n1 = in. nextDouble();
+    19.     
+    20.             System.out.println("Insira a operação.");
+    21.             op = in.next();
+    22.             
+    23.             System.out.println("Insira o segundo número.");
+    24.             n2 = in. nextDouble();
+    25.             switch(op){
+    26.                 case +:
+    27.                     System.out.println(n1 + " " + op + " " + n2 + " = " + (n1 + n2)); break;
+    28.    
+    29.                 case -:
+    30.                     System.out.println(n1 + " " + op + " " + n2 + " = " + (n1 - n2)); break;
+    31.     
+    32.                 case /:
+    33.                 {   if(n2 != 0)     
+    34.                         System.out.println(n1 + " " + op + " " + n2 + " = " + (n1 / n2));
+    35.                     else
+    36.                         System.out.println("Não podem ser feitas divisões por 0."); break;
+    37.                 }
+    38.    
+    39.                 case *:
+    40.                     System.out.println(n1 + " " + op + " " + n2 + " = " + (n1 * n2));
+    41.    
+    42.                 default:
+    43.                     System.out.println("Inseriu uma operação incorreta.");
+    44.                 }
+    45.             System.out.println("Deseja terminar o programa? y para terminar, n para não terminar.");
+    46.             end = in.next();
+    47.            
+    48.            if(end.equals("y"))
+    49.                break;
+    50.            
+    51.         }
+    52.     }
+    53. }
+                                            </pre>
+                                        </div>
+                                    </div>
+                                </div>
+                                <nav>
+                                    <ul class="pager">
+                                        <li class="previous"><a href="tarefas.html" class="tarefas"><span aria-hidden="true">&larr;</span> Tarefas</a></li>
+                                        <li class="next"><a href="recursos.html" class="recursos">Recursos <span aria-hidden="true">&rarr;</span></a></li>
+                                    </ul>
+                                </nav>
                             </div>
                         </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">
-                            Tarefa #8 - Elaboração da calculadora</a>
-                          </h4>
-                            </div>
-                            <div id="collapse8" class="panel-collapse collapse">
-                                <div class="panel-body text-justify"><pre>1. import java.util.Scanner;
-2. public class Main {
-3.     public static void main(String[] args) {
-4.     	
-5.         double n1, n2;
-6.         String op;
-7.         
-8.         Scanner in = new Scanner(System.in);
-9.         System.out.println("Insira o primeiro número.");
-10.         n1 = in. nextDouble();
-11.        System.out.println("Insira a operação.");
-12.        op = in.next();
-13.        
-14.        System.out.println("Insira o segundo número.");
-15.         n2 = in. nextDouble();
-16.         
-17.         if(op.equals("+"))
-18.             System.out.println(n1 + " " + op + " " + n2 + " = " + (n1 + n2));
-19.         else if(op.equals("-"))
-20.             System.out.println(n1 + " " + op + " " + n2 + " = " + (n1 - n2));
-21.         else if(op.equals("/")){
-22.         	if(n2 != 0)     
-23.         		System.out.println(n1 + " " + op + " " + n2 + " = " + (n1 / n2));
-24.         	else
-25.        		System.out.println("Não podem ser feitas divisões por 0.");
-26.        }
-27.         else if(op.equals("*"))
-28.             System.out.println(n1 + " " + op + " " + n2 + " = " + (n1 * n2));
-29.         else
-30.             System.out.println("Inseriu uma operação incorreta.");
-31.     }
-32. }</pre>
-                                    <p>Para a realização da calculadora utilizazmos todos os conhecimentos adquiridos previamente. Começamos por declarar as variáveis n1 e n2 que irão ser os valores numéricos e uma string op que irá ser a operação. De seguida é criado um Scanner para podermos receber inputs e são feitos 3 outputs e 3 inputs alternadamente de modo a pedir o primeiro valor e receber esse valor, o mesmo para a operação e o mesmo para o número final. Continuando, para mostrar o resultado no monitor ainda falta verificar de que tipo de operação se trata. Deste modo, temos de verificar o valor da variável op para conseguir imprimir o valor final correto. No entanto, há algumas exceções que temos de prestar atenção:</p>
-                                    <p>1. Divisão por 0 não é possível, pelo que temos um if em que caso seja uma divisão, se o segundo número for 0 é apresentada uma mensagem específica.</p>
-                                    <p>2. Valores que não são esperados pelo programa, fazem com que este não consiga correr corretamente não levando ao resultado esperado, de modo que, caso não exista o valor da operação inserida, é também apresentada uma mensagem específica para esse erro.</p>
-                                    <p>E deste modo concluimos a criação de uma calculadora bastante simples.</p>
-                                </div>
-                            </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /.container -->
+
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <p>Software Educativo FEUP 2016 - Fábio Amarante, João Ribeiro e José Taveira</p>
                         </div>
                     </div>
                 </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
+            </footer>
 
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">Parte II - 
-                        <strong>Avançado</strong>
-                    </h2>
-                    <h5 class="text-center">
-                        <strong>Componente gráfica da calculadora</strong>
-                    </h5>
-                    <hr>
-                </div>
-                <div class="col-md-12">
-                    <div class="panel-group" id="accordion-2">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion-2" href="#collapse9">
-                            Tarefa #1 - Introdução à Framework Swing</a>
-                          </h4>
-                            </div>
-                            <div id="collapse9" class="panel-collapse collapse">
-                                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion-2" href="#collapse10">
-                            Tarefa #2 - Criação da janela da aplicação</a>
-                          </h4>
-                            </div>
-                            <div id="collapse10" class="panel-collapse collapse">
-                                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion-2" href="#collapse11">
-                            Tarefa #3 - Criação de um simples botão</a>
-                          </h4>
-                            </div>
-                            <div id="collapse11" class="panel-collapse collapse">
-                                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion-2" href="#collapse12">
-                            Tarefa #4 - Implementar a calculadora programada na Parte I em modo gráfico</a>
-                          </h4>
-                            </div>
-                            <div id="collapse12" class="panel-collapse collapse">
-                                <div class="panel-body"></div>
-                            </div>
-                        </div>
-                        <nav>
-                            <ul class="pager">
-                                <li class="previous"><a href="tarefas.html" class="tarefas"><span aria-hidden="true">&larr;</span> Tarefas</a></li>
-                                <li class="next"><a href="recursos.html" class="recursos">Recursos <span aria-hidden="true">&rarr;</span></a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
+            <!-- jQuery -->
+            <script src="js/jquery.js"></script>
 
-    </div>
-    <!-- /.container -->
+            <!-- Bootstrap Core JavaScript -->
+            <script src="js/bootstrap.min.js"></script>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p>Software Educativo FEUP 2016 - Fábio Amarante, João Ribeiro e José Taveira</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+        </body>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-</body>
-
-</html>
+        </html>
